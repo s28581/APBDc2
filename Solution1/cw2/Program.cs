@@ -11,4 +11,27 @@
             sum += num;
         }
     }
+    //zad1
+    int AvrageOfArray(int[] arr)
+    {
+        int sum = 0;
+        foreach (int num in arr)
+        {
+            sum += num;
+        }
+        return sum / arr.Length;
+    }
+    //zad2
+    int MaxOfArray(int[] arr)
+    {
+        int max = arr[0];
+        foreach (int num in arr)
+        {
+            if (num > max)
+                max = num;
+        }
+        {
+            
+        }
+    }
 }
