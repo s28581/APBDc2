@@ -21,17 +21,4 @@
         }
         return sum / arr.Length;
     }
-    //zad2
-    int MaxOfArray(int[] arr)
-    {
-        int max = arr[0];
-        foreach (int num in arr)
-        {
-            if (num > max)
-                max = num;
-        }
-        {
-            
-        }
-    }
 }
